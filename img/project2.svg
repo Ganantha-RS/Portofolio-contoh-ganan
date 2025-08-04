@@ -1,0 +1,80 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  
+  <!-- Task Management App Illustration -->
+  <g transform="translate(100, 50)">
+    <!-- Background circle -->
+    <circle cx="300" cy="250" r="200" fill="#4a6cf7" opacity="0.1"/>
+    
+    <!-- Task board -->
+    <g transform="translate(100, 100)">
+      <!-- Board background -->
+      <rect x="0" y="0" width="400" height="300" rx="10" fill="white" stroke="#4a6cf7" stroke-width="2"/>
+      
+      <!-- Columns -->
+      <g>
+        <!-- To Do -->
+        <rect x="10" y="40" width="120" height="250" rx="5" fill="#f8f9fa"/>
+        <rect x="10" y="10" width="120" height="25" rx="5" fill="#4a6cf7"/>
+        <text x="70" y="27" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">To Do</text>
+        
+        <!-- In Progress -->
+        <rect x="140" y="40" width="120" height="250" rx="5" fill="#f8f9fa"/>
+        <rect x="140" y="10" width="120" height="25" rx="5" fill="#4a6cf7"/>
+        <text x="200" y="27" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">In Progress</text>
+        
+        <!-- Done -->
+        <rect x="270" y="40" width="120" height="250" rx="5" fill="#f8f9fa"/>
+        <rect x="270" y="10" width="120" height="25" rx="5" fill="#4a6cf7"/>
+        <text x="330" y="27" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Done</text>
+      </g>
+      
+      <!-- Task cards -->
+      <g>
+        <!-- To Do tasks -->
+        <rect x="20" y="50" width="100" height="70" rx="5" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+        <rect x="30" y="60" width="80" height="10" rx="2" fill="#2b3940" opacity="0.7"/>
+        <rect x="30" y="75" width="60" height="10" rx="2" fill="#2b3940" opacity="0.4"/>
+        <rect x="30" y="90" width="40" height="10" rx="2" fill="#2b3940" opacity="0.4"/>
+        <circle cx="30" cy="110" r="5" fill="#dc3545"/>
+        
+        <rect x="20" y="130" width="100" height="70" rx="5" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+        <rect x="30" y="140" width="80" height="10" rx="2" fill="#2b3940" opacity="0.7"/>
+        <rect x="30" y="155" width="60" height="10" rx="2" fill="#2b3940" opacity="0.4"/>
+        <rect x="30" y="170" width="40" height="10" rx="2" fill="#2b3940" opacity="0.4"/>
+        <circle cx="30" cy="190" r="5" fill="#ffc107"/>
+        
+        <!-- In Progress tasks -->
+        <rect x="150" y="50" width="100" height="70" rx="5" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+        <rect x="160" y="60" width="80" height="10" rx="2" fill="#2b3940" opacity="0.7"/>
+        <rect x="160" y="75" width="60" height="10" rx="2" fill="#2b3940" opacity="0.4"/>
+        <rect x="160" y="90" width="40" height="10" rx="2" fill="#2b3940" opacity="0.4"/>
+        <circle cx="160" cy="110" r="5" fill="#4a6cf7"/>
+        
+        <!-- Done tasks -->
+        <rect x="280" y="50" width="100" height="70" rx="5" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+        <rect x="290" y="60" width="80" height="10" rx="2" fill="#2b3940" opacity="0.7"/>
+        <rect x="290" y="75" width="60" height="10" rx="2" fill="#2b3940" opacity="0.4"/>
+        <rect x="290" y="90" width="40" height="10" rx="2" fill="#2b3940" opacity="0.4"/>
+        <circle cx="290" cy="110" r="5" fill="#28a745"/>
+        
+        <rect x="280" y="130" width="100" height="70" rx="5" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+        <rect x="290" y="140" width="80" height="10" rx="2" fill="#2b3940" opacity="0.7"/>
+        <rect x="290" y="155" width="60" height="10" rx="2" fill="#2b3940" opacity="0.4"/>
+        <rect x="290" y="170" width="40" height="10" rx="2" fill="#2b3940" opacity="0.4"/>
+        <circle cx="290" cy="190" r="5" fill="#28a745"/>
+      </g>
+    </g>
+    
+    <!-- Decorative elements -->
+    <g>
+      <circle cx="50" cy="350" r="30" fill="#4a6cf7" opacity="0.2"/>
+      <circle cx="550" cy="150" r="40" fill="#4a6cf7" opacity="0.2"/>
+      <circle cx="500" cy="400" r="25" fill="#4a6cf7" opacity="0.3"/>
+    </g>
+    
+    <!-- Text: Task Management -->
+    <text x="300" y="450" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#2b3940">Task Management App</text>
+  </g>
+</svg>

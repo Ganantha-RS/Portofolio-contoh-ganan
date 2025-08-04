@@ -1,0 +1,50 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background shape -->
+  <circle cx="250" cy="250" r="240" fill="#4a6cf7" opacity="0.1"/>
+  
+  <!-- Abstract shapes for decoration -->
+  <circle cx="150" cy="150" r="50" fill="#4a6cf7" opacity="0.2"/>
+  <circle cx="350" cy="350" r="70" fill="#4a6cf7" opacity="0.2"/>
+  <circle cx="400" cy="150" r="30" fill="#4a6cf7" opacity="0.3"/>
+  <circle cx="100" cy="350" r="40" fill="#4a6cf7" opacity="0.3"/>
+  
+  <!-- Stylized person silhouette -->
+  <g transform="translate(165, 100)">
+    <!-- Head -->
+    <circle cx="85" cy="70" r="60" fill="#2b3940"/>
+    
+    <!-- Body -->
+    <path d="M40 140 L130 140 L150 300 L20 300 Z" fill="#2b3940"/>
+    
+    <!-- Arms -->
+    <path d="M40 140 L0 220 L20 230 L60 160 Z" fill="#2b3940"/>
+    <path d="M130 140 L170 220 L150 230 L110 160 Z" fill="#2b3940"/>
+    
+    <!-- Laptop -->
+    <rect x="45" y="180" width="80" height="60" rx="5" fill="#4a6cf7"/>
+    <rect x="50" y="185" width="70" height="50" rx="3" fill="white"/>
+    <rect x="45" y="240" width="80" height="10" rx="5" fill="#2b3940"/>
+    
+    <!-- Code symbols on screen -->
+    <text x="60" y="205" font-family="monospace" font-size="8" fill="#2b3940">&lt;/&gt;</text>
+    <text x="75" y="215" font-family="monospace" font-size="8" fill="#2b3940">{}</text>
+    <text x="90" y="225" font-family="monospace" font-size="8" fill="#2b3940">[]</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <g transform="translate(0, 0)">
+    <!-- Code brackets -->
+    <text x="50" y="100" font-family="monospace" font-size="30" fill="#4a6cf7" opacity="0.5">&lt;/&gt;</text>
+    <text x="400" y="200" font-family="monospace" font-size="30" fill="#4a6cf7" opacity="0.5">{}</text>
+    <text x="100" y="400" font-family="monospace" font-size="30" fill="#4a6cf7" opacity="0.5">[]</text>
+    
+    <!-- Floating dots -->
+    <circle cx="80" cy="200" r="5" fill="#4a6cf7"/>
+    <circle cx="90" cy="220" r="3" fill="#4a6cf7"/>
+    <circle cx="70" cy="230" r="4" fill="#4a6cf7"/>
+    
+    <circle cx="380" cy="280" r="5" fill="#4a6cf7"/>
+    <circle cx="400" cy="300" r="3" fill="#4a6cf7"/>
+    <circle cx="390" cy="320" r="4" fill="#4a6cf7"/>
+  </g>
+</svg>
